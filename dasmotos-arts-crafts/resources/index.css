@@ -1,0 +1,53 @@
+body{
+    background-color: gray;
+}
+
+.sec1{
+    background-image: url('./images/tiles.jpeg');
+    /* justify-content: center; */
+}
+h1{
+    font-size: 120px;
+    display:flex;
+    width: 59%;
+    margin: auto;
+    text-align: center;
+    font-family: Helvetica;
+    animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText{
+    20%{     color: red;    }
+    49%{    color: orange; }
+    50%{    color: yellow; }
+    99%{    color:green;  }
+    100%{   color: blue;    }
+}
+
+.two{
+    background-color: mediumspringgreen;
+}
+h2{
+    color:white;
+    text-align: center;
+    font-size: 32px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+h3{
+    text-align: center;
+    font-family: Helvetica;
+}
+.three{
+    background-color: lightcoral;
+}
+.four{
+    background-color: skyblue;
+}
+p{
+    font-family: Helvetica ;
+    text-align: center;
+}
+img{
+    display: flex;
+    margin: auto;
+}
